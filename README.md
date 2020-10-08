@@ -8,4 +8,4 @@
 - Sai Rohith Gorla
 
 ## App logo
-{[logo.jpg]}
+
