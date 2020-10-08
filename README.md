@@ -8,4 +8,4 @@
 - Sai Rohith Gorla
 
 ## App logo
-(https://github.com/neeleshsaladi/Android-Project/blob/main/logo.jpg)
+![](https://github.com/neeleshsaladi/Android-Project/blob/main/logo.jpg)
