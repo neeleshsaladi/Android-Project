@@ -46,62 +46,62 @@ public class TimeSlots extends Activity implements View.OnClickListener {
     {
         if(v.getId()==R.id.B8AM)
         {
-            Intent intent=new Intent(getApplicationContext(),WeightTraining.class);
+            Intent intent=new Intent(getApplicationContext(),Gym.class);
             startActivity(intent);
         }
         else if (v.getId()==R.id.B9AM)
         {
-            Intent in=new Intent(getApplicationContext(),Cardio.class);
+            Intent in=new Intent(getApplicationContext(),Gym.class);
             startActivity(in);
         }
         else if (v.getId()==R.id.B10AM)
         {
-            Intent in=new Intent(getApplicationContext(), YogaClass.class);
+            Intent in=new Intent(getApplicationContext(), Gym.class);
             startActivity(in);
         }
         else if (v.getId()==R.id.B11AM)
         {
-            Intent in=new Intent(getApplicationContext(), PowerTraining.class);
+            Intent in=new Intent(getApplicationContext(), Gym.class);
             startActivity(in);
         }
         else if (v.getId()==R.id.B12PM)
         {
-            Intent in=new Intent(getApplicationContext(),Cardio.class);
+            Intent in=new Intent(getApplicationContext(),Gym.class);
             startActivity(in);
         }
         else if (v.getId()==R.id.B1PM)
         {
-            Intent in=new Intent(getApplicationContext(), YogaClass.class);
+            Intent in=new Intent(getApplicationContext(), Gym.class);
             startActivity(in);
         }
         else if (v.getId()==R.id.B2PM)
         {
-            Intent in=new Intent(getApplicationContext(), PowerTraining.class);
+            Intent in=new Intent(getApplicationContext(), Gym.class);
             startActivity(in);
         }
         else if (v.getId()==R.id.B3PM)
         {
-            Intent in=new Intent(getApplicationContext(),Cardio.class);
+            Intent in=new Intent(getApplicationContext(),Gym.class);
             startActivity(in);
         }
         else if (v.getId()==R.id.B4PM)
         {
-            Intent in=new Intent(getApplicationContext(), YogaClass.class);
+            Intent in=new Intent(getApplicationContext(), Gym.class);
             startActivity(in);
         }
         else if (v.getId()==R.id.B5PM)
         {
-            Intent in=new Intent(getApplicationContext(), PowerTraining.class);
+            Intent in=new Intent(getApplicationContext(), Gym.class);
             startActivity(in);
         }
         else if (v.getId()==R.id.B6PM)
         {
-            Intent in=new Intent(getApplicationContext(), YogaClass.class);
+            Intent in=new Intent(getApplicationContext(), Gym.class);
             startActivity(in);
         }
         else if (v.getId()==R.id.B7PM)
         {
-            Intent in=new Intent(getApplicationContext(), PowerTraining.class);
+            Intent in=new Intent(getApplicationContext(), Gym.class);
             startActivity(in);
         }
     }

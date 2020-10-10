@@ -22,21 +22,21 @@ public class LoginActivity extends AppCompatActivity {
         usersignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(getApplicationContext(),MainActivity.class);
+                Intent a = new Intent(LoginActivity.this,MainActivity.class);
                 startActivity(a);
             }
         });
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent b = new Intent(getApplicationContext(),DashboardActivity.class);
-                startActivity(b);
+                Intent intent = new Intent(LoginActivity.this,DashboardActivity.class);
+                startActivity(intent);
             }
         });
         forgot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent c = new Intent(getApplicationContext(),Forgotpassword.class);
+                Intent c = new Intent(LoginActivity.this,Forgotpassword.class);
                 startActivity(c);
             }
         });

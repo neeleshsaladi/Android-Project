@@ -17,12 +17,12 @@ public class DashboardActivity extends AppCompatActivity implements OnClickListe
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_dashboard);
         b1= (Button) findViewById(R.id.Gym);
         b2= (Button) findViewById(R.id.BMI);
 
-        b1.setOnClickListener(this);
-        b2.setOnClickListener(this);
+//        b1.setOnClickListener(this);
+//        b2.setOnClickListener(this);
 
     }
 
