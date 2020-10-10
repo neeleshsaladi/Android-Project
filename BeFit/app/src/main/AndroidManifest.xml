@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".TimeSlots"></activity>
+        <activity android:name=".TimeSlots" />
         <activity android:name=".DashboardActivity" />
         <activity android:name=".Forgotpassword" />
         <activity android:name=".LoginActivity" />
@@ -21,6 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BMI" />
 
     </application>
 

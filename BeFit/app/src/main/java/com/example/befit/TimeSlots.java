@@ -13,7 +13,7 @@ public class TimeSlots extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.timeslots);
         b1= (Button) findViewById(R.id.B8AM);
         b2= (Button) findViewById(R.id.B9AM);
         b3= (Button) findViewById(R.id.B10AM);
@@ -56,11 +56,9 @@ public class TimeSlots extends Activity implements View.OnClickListener {
         }
         else if (v.getId()==R.id.B10AM)
         {
-<<<<<<< HEAD
-            Intent in=new Intent(getApplicationContext(), Gym.class);
-=======
+
             Intent in=new Intent(getApplicationContext(),Gym.class);
->>>>>>> 80e8e9774091e81f090ad9b8cb3cb1a600511ecd
+
             startActivity(in);
         }
         else if (v.getId()==R.id.B11AM)
@@ -70,30 +68,21 @@ public class TimeSlots extends Activity implements View.OnClickListener {
         }
         else if (v.getId()==R.id.B12PM)
         {
-<<<<<<< HEAD
-            Intent in=new Intent(getApplicationContext(),Gym.class);
-=======
-            Intent in=new Intent(getApplicationContext(), Gym.class);
->>>>>>> 80e8e9774091e81f090ad9b8cb3cb1a600511ecd
-            startActivity(in);
+             Intent in=new Intent(getApplicationContext(), Gym.class);
+             startActivity(in);
         }
         else if (v.getId()==R.id.B1PM)
         {
-<<<<<<< HEAD
-            Intent in=new Intent(getApplicationContext(), Gym.class);
-=======
+
             Intent in=new Intent(getApplicationContext(),Gym.class);
->>>>>>> 80e8e9774091e81f090ad9b8cb3cb1a600511ecd
+
             startActivity(in);
         }
         else if (v.getId()==R.id.B2PM)
         {
-<<<<<<< HEAD
-            Intent in=new Intent(getApplicationContext(), Gym.class);
-=======
+
             Intent in=new Intent(getApplicationContext(),Gym.class);
->>>>>>> 80e8e9774091e81f090ad9b8cb3cb1a600511ecd
-            startActivity(in);
+              startActivity(in);
         }
         else if (v.getId()==R.id.B3PM)
         {
@@ -102,38 +91,28 @@ public class TimeSlots extends Activity implements View.OnClickListener {
         }
         else if (v.getId()==R.id.B4PM)
         {
-<<<<<<< HEAD
-            Intent in=new Intent(getApplicationContext(), Gym.class);
-=======
-            Intent in=new Intent(getApplicationContext(),Gym.class);
->>>>>>> 80e8e9774091e81f090ad9b8cb3cb1a600511ecd
+             Intent in=new Intent(getApplicationContext(),Gym.class);
+
             startActivity(in);
         }
         else if (v.getId()==R.id.B5PM)
         {
-<<<<<<< HEAD
-            Intent in=new Intent(getApplicationContext(), Gym.class);
-=======
+
             Intent in=new Intent(getApplicationContext(),Gym.class);
->>>>>>> 80e8e9774091e81f090ad9b8cb3cb1a600511ecd
+
             startActivity(in);
         }
         else if (v.getId()==R.id.B6PM)
         {
-<<<<<<< HEAD
-            Intent in=new Intent(getApplicationContext(), Gym.class);
-=======
-            Intent in=new Intent(getApplicationContext(),Gym.class);
->>>>>>> 80e8e9774091e81f090ad9b8cb3cb1a600511ecd
+             Intent in=new Intent(getApplicationContext(),Gym.class);
+
             startActivity(in);
         }
         else if (v.getId()==R.id.B7PM)
         {
-<<<<<<< HEAD
-            Intent in=new Intent(getApplicationContext(), Gym.class);
-=======
+
             Intent in=new Intent(getApplicationContext(),Gym.class);
->>>>>>> 80e8e9774091e81f090ad9b8cb3cb1a600511ecd
+
             startActivity(in);
         }
     }

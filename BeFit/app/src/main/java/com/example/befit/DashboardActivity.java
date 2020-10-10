@@ -21,8 +21,8 @@ public class DashboardActivity extends AppCompatActivity implements OnClickListe
         b1= (Button) findViewById(R.id.Gym);
         b2= (Button) findViewById(R.id.BMI);
 
-//        b1.setOnClickListener(this);
-//        b2.setOnClickListener(this);
+       b1.setOnClickListener(this);
+       b2.setOnClickListener(this);
 
     }
 
