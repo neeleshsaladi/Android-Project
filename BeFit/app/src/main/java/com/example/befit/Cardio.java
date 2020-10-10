@@ -7,7 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class Cardio extends Activity {
+//public class Cardio extends AppCompatActivity implements View.OnClickListener {
 
     Button button;
 
@@ -25,16 +28,14 @@ public class Cardio extends Activity {
         button = (Button) findViewById(R.id.button4);
 
         button.setOnClickListener(new View.OnClickListener() {
-
             @Override
-            public void onClick(View arg0) {
-
-                Intent intent = new Intent(context, RateCard.class);
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), RateCard.class);
                 startActivity(intent);
-
             }
-
         });
 
     }
+
+
 }

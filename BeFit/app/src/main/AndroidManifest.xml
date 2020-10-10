@@ -17,6 +17,10 @@
         <activity android:name=".DashboardActivity" />
         <activity android:name=".Forgotpassword" />
         <activity android:name=".LoginActivity" />
+        <activity android:name=".Cardio"/>
+        <activity android:name=".RateCard"/>
+        <activity android:name=".PowerTraining"/>
+        <activity android:name=".WeightTraining"/>
         <activity android:name=".MainActivity">
 
             <intent-filter>

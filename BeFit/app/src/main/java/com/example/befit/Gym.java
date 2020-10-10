@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 
 
-public class Gym extends AppCompatActivity implements OnClickListener  {
+public class Gym extends AppCompatActivity implements OnClickListener {
     Button  b1,b2,b3,b4;
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -24,11 +24,12 @@ public class Gym extends AppCompatActivity implements OnClickListener  {
         b2.setOnClickListener(this);
         b3.setOnClickListener(this);
         b4.setOnClickListener(this);
-    }
 
+    }
 
     @Override
     public void onClick(View v)
+
     {
         if(v.getId()==R.id.Weight)
         {
