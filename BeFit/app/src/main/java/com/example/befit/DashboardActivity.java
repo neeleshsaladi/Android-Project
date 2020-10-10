@@ -32,7 +32,7 @@ public class DashboardActivity extends AppCompatActivity implements OnClickListe
     {
         if(v.getId()==R.id.Gym)
         {
-            Intent intent=new Intent(getApplicationContext(),Gym.class);
+            Intent intent=new Intent(getApplicationContext(),TimeSlots.class);
             startActivity(intent);
         }
         else if (v.getId()==R.id.BMI)
