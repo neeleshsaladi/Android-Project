@@ -50,18 +50,18 @@ public class TimeSlots extends Activity implements View.OnClickListener {
     {
         if(v.getId()==R.id.B8AM)
         {
-            Intent Intent =new Intent(TimeSlots.this,Gym.class);
+            Intent Intent =new Intent(getApplicationContext(),Gym.class);
             startActivity(Intent);
         }
         else if (v.getId()==R.id.B9AM)
         {
-            Intent ab =new Intent(TimeSlots.this,Gym.class);
-            startActivity(ab);
+            Intent in =new Intent(getApplicationContext(),Gym.class);
+            startActivity(in);
         }
         else if (v.getId()==R.id.B10AM)
         {
 
-            Intent in=new Intent(TimeSlots.this,Gym.class);
+            Intent in=new Intent(getApplicationContext(),Gym.class);
 
             startActivity(in);
         }
