@@ -2,8 +2,6 @@ package com.example.befit;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
@@ -18,10 +16,10 @@ public class Gym extends AppCompatActivity implements OnClickListener  {
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gym);
-        b1= (Button) findViewById(R.id.button6);
-        b2= (Button) findViewById(R.id.button8);
-        b3= (Button) findViewById(R.id.button9);
-        b4= (Button) findViewById(R.id.button10);
+        b1= (Button) findViewById(R.id.Weight);
+        b2= (Button) findViewById(R.id.cardio);
+        b3= (Button) findViewById(R.id.yoga);
+        b4= (Button) findViewById(R.id.power);
         b1.setOnClickListener(this);
         b2.setOnClickListener(this);
         b3.setOnClickListener(this);
@@ -32,24 +30,24 @@ public class Gym extends AppCompatActivity implements OnClickListener  {
     @Override
     public void onClick(View v)
     {
-        if(v.getId()==R.id.button6)
+        if(v.getId()==R.id.Weight)
         {
-            Intent intent=new Intent(Gym.this,WeightTraining.class);
+            Intent intent=new Intent(getApplicationContext(),WeightTraining.class);
             startActivity(intent);
         }
-        else if (v.getId()==R.id.button8)
+        else if (v.getId()==R.id.cardio)
         {
-            Intent in=new Intent(Gym.this,Cardio.class);
+            Intent in=new Intent(getApplicationContext(),Cardio.class);
             startActivity(in);
         }
-        else if (v.getId()==R.id.button9)
+        else if (v.getId()==R.id.yoga)
         {
-            Intent in=new Intent(Gym.this, YogaClass.class);
+            Intent in=new Intent(getApplicationContext(), YogaClass.class);
             startActivity(in);
         }
-        else if (v.getId()==R.id.button10)
+        else if (v.getId()==R.id.power)
         {
-            Intent in=new Intent(Gym.this, PowerTraining.class);
+            Intent in=new Intent(getApplicationContext(), PowerTraining.class);
             startActivity(in);
         }
     }
