@@ -10,11 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <activity android:name=".Gym"/>
+        <activity android:name=".YogaClass"/>
+
         <activity android:name=".TimeSlots" />
         <activity android:name=".DashboardActivity" />
         <activity android:name=".Forgotpassword" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
