@@ -8,4 +8,11 @@
     <string name="obese_class_i">Obese_class_i</string>
     <string name="obese_class_ii">Obese_class_ii</string>
     <string name="Fatty">Fatty</string>
+    <string name="date_label_set">Press the button to set the date</string>
+    <string name="date_button_set">Set Date</string>
+    <string name="date_view_set">The Date is: </string>
+    <string name="date_selected"></string>
+    <string name="button">Button</string>
+    <string name="selectdate">SelectDate</string>
+
 </resources>
