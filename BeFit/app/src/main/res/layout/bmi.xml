@@ -5,8 +5,9 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:textStyle="bold"
 
-    android:background="@drawable/img"
     android:orientation="vertical"
     tools:context="com.example.befit.BMI">
 
