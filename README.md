@@ -19,4 +19,6 @@
 ### Activities in the Application
 * Home page- In this user can login or signup.
 
-![](https://github.com/neeleshsaladi/Android-Project/blob/main/Login.jpg)
+![](https://github.com/neeleshsaladi/Android-Project/blob/main/Home.jpg)
+
+
