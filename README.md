@@ -21,4 +21,6 @@
 
 ![](https://github.com/neeleshsaladi/Android-Project/blob/main/Home.jpg)
 
+* Login page- User can login by entering his/her credentials to their registered account. If the user was not able to login into the account by forgetting password, then they can reset their password by clicking on forgot password option and they will able to reset their password.
 
+![](https://github.com/neeleshsaladi/Android-Project/blob/main/Login.jpg)
