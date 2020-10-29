@@ -23,4 +23,20 @@
 
 * Login page- User can login by entering his/her credentials to their registered account. If the user was not able to login into the account by forgetting password, then they can reset their password by clicking on forgot password option and they will able to reset their password.
 
-![](https://github.com/neeleshsaladi/Android-Project/blob/main/Login.jpg)
+![](https://github.com/neeleshsaladi/Android-Project/blob/main/Login.JPG)
+
+* Signup page- In Sign Up, User has to provide his/her basic information such as Username, E-Mail, Phone number, Password. By signing user can have easy and unlimited access to the application. 
+  
+![](https://github.com/neeleshsaladi/Android-Project/blob/main/Signup.JPG)
+
+* Forgot_password page- This activity helps User in changing their password.
+
+![](https://github.com/neeleshsaladi/Android-Project/blob/main/Forgot_password.JPG)
+
+* Dashboard_activity page- : In the Dashboard activity we have added a BMI calculator and the Exercise Routine menu starts from the Gym.
+
+![](https://github.com/neeleshsaladi/Android-Project/blob/main/Dashboard_activity.JPG)
+
+* BMI_page- In this weight and height of a person is calculated.
+
+![](https://github.com/neeleshsaladi/Android-Project/blob/main/BMI.JPG)
