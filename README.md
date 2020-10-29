@@ -23,7 +23,7 @@
 
 * Login page- User can login by entering his/her credentials to their registered account. If the user was not able to login into the account by forgetting password, then they can reset their password by clicking on forgot password option and they will able to reset their password.
 
-![](https://github.com/neeleshsaladi/Android-Project/blob/main/Login.jpg)
+![](https://github.com/neeleshsaladi/Android-Project/blob/main/Login.JPG)
 
 * Sign-up page- In Sign Up, User has to provide his/her basic information such as Username, E-Mail, Phone number, Password. By signing user can have easy and unlimited access to the application. 
   
