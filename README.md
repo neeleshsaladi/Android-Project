@@ -32,3 +32,7 @@
 * Forgot_password page- This activity helps User in changing their password.
 
 ![](https://github.com/neeleshsaladi/Android-Project/blob/main/Forgot_password.JPG)
+
+* Dashboard_activity page- : In the Dashboard activity we have added a BMI calculator and the Exercise Routine menu starts from the Gym.
+
+![](https://github.com/neeleshsaladi/Android-Project/blob/main/Dashboard_activity.JPG)
