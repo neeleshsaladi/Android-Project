@@ -25,6 +25,10 @@
 
 ![](https://github.com/neeleshsaladi/Android-Project/blob/main/Login.JPG)
 
-* Sign-up page- In Sign Up, User has to provide his/her basic information such as Username, E-Mail, Phone number, Password. By signing user can have easy and unlimited access to the application. 
+* Signup page- In Sign Up, User has to provide his/her basic information such as Username, E-Mail, Phone number, Password. By signing user can have easy and unlimited access to the application. 
   
 ![](https://github.com/neeleshsaladi/Android-Project/blob/main/Signup.JPG)
+
+* Forgot_password page- This activity helps User in changing their password.
+
+![](https://github.com/neeleshsaladi/Android-Project/blob/main/Forgot_password.JPG)
