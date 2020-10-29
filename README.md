@@ -36,3 +36,7 @@
 * Dashboard_activity page- : In the Dashboard activity we have added a BMI calculator and the Exercise Routine menu starts from the Gym.
 
 ![](https://github.com/neeleshsaladi/Android-Project/blob/main/Dashboard_activity.JPG)
+
+* BMI_page- In this weight and height of a person is calculated.
+
+![](https://github.com/neeleshsaladi/Android-Project/blob/main/BMI.JPG)
