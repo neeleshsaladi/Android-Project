@@ -19,7 +19,7 @@ public class RateCard extends Activity {
     }
     public void addListenerOnButton() {
         final Context context = this;
-        button = (Button) findViewById(R.id.button);
+        button = (Button) findViewById(R.id.button3);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

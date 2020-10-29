@@ -22,7 +22,7 @@ public class WeightTraining extends Activity {
 
         final Context context = this;
 
-        button = (Button) findViewById(R.id.button);
+        button = (Button) findViewById(R.id.button6);
 
         button.setOnClickListener(new View.OnClickListener() {
 

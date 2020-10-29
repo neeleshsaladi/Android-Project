@@ -24,6 +24,7 @@ public class YogaClass extends Activity {
         final Context context = this;
 
         button = (Button) findViewById(R.id.button);
+        button = (Button) findViewById(R.id.button5);
 
         button.setOnClickListener(new View.OnClickListener() {
 
