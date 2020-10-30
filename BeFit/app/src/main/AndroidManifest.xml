@@ -17,6 +17,7 @@
         <activity android:name=".Calender"/>
         <activity android:name=".TimeSlots" />
         <activity android:name=".DashboardActivity" />
+        <activity android:name=".Billingamount"/>
         <activity android:name=".Forgotpassword" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".Cardio"/>
