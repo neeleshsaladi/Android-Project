@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "685827360143",
+    "firebase_url": "https://be-fit-c4803.firebaseio.com",
+    "project_id": "be-fit-c4803",
+    "storage_bucket": "be-fit-c4803.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685827360143:android:f627e8e43e961a340d37fa",
+        "android_client_info": {
+          "package_name": "com.example.befit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685827360143-95fso1uvcdgtmicdhan8r3s6jco6rs6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYRj1EzFIfoyCPw5UpZCihMf6B249iY2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685827360143-95fso1uvcdgtmicdhan8r3s6jco6rs6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
