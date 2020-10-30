@@ -80,7 +80,7 @@ public class Calender extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        if(v.getId()==R.id.button5)
+        if(v.getId()==R.id.button8)
         {
             Intent intent=new Intent(getApplicationContext(),TimeSlots.class);
             startActivity(intent);
