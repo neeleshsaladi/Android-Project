@@ -24,7 +24,7 @@ public class Billingamount extends Activity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, Billingamount.class);
+                Intent intent = new Intent(context,Gym.class);
                 startActivity(intent);
             }
         });
