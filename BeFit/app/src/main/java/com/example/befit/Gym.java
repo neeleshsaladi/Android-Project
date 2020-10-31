@@ -1,12 +1,12 @@
 package com.example.befit;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Button;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 
 public class Gym extends AppCompatActivity implements OnClickListener {
@@ -31,22 +31,22 @@ public class Gym extends AppCompatActivity implements OnClickListener {
     public void onClick(View v)
 
     {
-        if(v.getId()==R.id.Weight)
+        if(v.getId()== R.id.Weight)
         {
-            Intent intent=new Intent(getApplicationContext(),WeightTraining.class);
+            Intent intent=new Intent(getApplicationContext(), WeightTraining.class);
             startActivity(intent);
         }
-        else if (v.getId()==R.id.cardio)
+        else if (v.getId()== R.id.cardio)
         {
-            Intent in=new Intent(getApplicationContext(),Cardio.class);
+            Intent in=new Intent(getApplicationContext(), Cardio.class);
             startActivity(in);
         }
-        else if (v.getId()==R.id.yoga)
+        else if (v.getId()== R.id.yoga)
         {
             Intent in=new Intent(getApplicationContext(), YogaClass.class);
             startActivity(in);
         }
-        else if (v.getId()==R.id.power)
+        else if (v.getId()== R.id.power)
         {
             Intent in=new Intent(getApplicationContext(), PowerTraining.class);
             startActivity(in);
