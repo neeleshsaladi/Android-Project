@@ -1,6 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <!-- <color name="colorPrimary">#6200EE</color>
+     <color name="colorPrimaryDark">#3700B3</color>
+     <color name="colorAccent">#03DAC5</color>-->
+    <color name="colorPrimary">#95d600</color>
+    <color name="colorPrimaryDark">#628b04</color>
+    <color name="colorAccent">#95d600</color>
+
+
+    <color name="colorPrimaryLightest">#dbf4a1</color>
+    <color name="colorPrimaryHalfTransparent">#4095d600</color>
+
+    <color name="buttonBackground">#95d600</color>
+    <color name="buttonBackgroundHalfTransparent">#8095d600</color>
+
+    <color name="receiptHeadBackground">#F8F9FB</color>
+
+    <color name="white">#ffffff</color>
+    <color name="dimWhite">#F3F3F3</color>
+    <color name="white95">#fcfcfc</color>
+    <color name="black">#000000</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="tw__transparent">#00000000</color>
+    <color name="whiteHalfTransparent">#80ffffff</color>
+    <color name="whiteEightyTransparent">#33ffffff</color>
+    <color name="lightWhite">#f4f2f2</color>
+    <color name="darkTextColorEightyTransparent">#33484848</color>
+
+    <color name="blackTransparentNetworkError">#80000000</color>
+
+    <color name="darkDivider">#555555</color>
+    <color name="lightDivider">#999999</color>
+    <color name="lightestDivider">#dbdbdb</color>
+
+    <color name="greylightBackground">#f9f8f8</color>
+    <color name="darkTextColor">#484848</color>
+    <color name="darkestTextColor">#282828</color>
+    <color name="normalTextColor">#3b3b3b</color>
+    <color name="lightTextColor">#999999</color>
+    <color name="lightestTextColor">#dbdbdb</color>
+    <color name="highLightTextColor">#01B5F6</color>
+
+    <color name="jobStatusCompleted">#5BC24F</color>
+    <color name="jobStatusDeclined">#FE0000</color>
+    <color name="jobStatusExpired">#EA7926</color>
+    <color name="jobStatusCanceled">#FE0000</color>
+
+    <color name="silver">#cccccc</color>
+
+    <color name="customRed">#EB4942</color>
+    <color name="customGreen">#5BC24F</color>
+
+    <color name="cusotmRedDim">#80EB4942</color>
+    <color name="customGreenDim">#805BC24F</color>
+
+
+    <color name="verifiedBank">#139119</color>
+    <color name="nonVerifiedBank">#C0BE1D</color>
+
+    <color name="nonProgress">#F2F2F0</color>
+    <color name="backgroundViewArrived">#F3F0F1</color>
+    <color name="backgroundGray">#EDEDF1</color>
+
+    <color name="googleNavBackground">#597DEF</color>
+    <color name="waveNavBackground">#89D5EC</color>
+
+    <color name="signatureBackground">#E9EEF2</color>
+    <color name="sentTicketMsgBackground">#FFF0F6F8</color>
+
+    <color name="dimwhite">#f6f6f6</color>
+    <color name="smokewhite">#F5F5F5</color>
+    <color name="lightBlack">#282828</color>
+    <color name="lightBlackText">#585858</color>
+
+    <color name="gunsmoke">#8D8F8E</color>
+
+    <color name="calendarBackgroundColor">@color/white</color>
+    <color name="calendarCurrentSelectedDayBackgroundColor">@color/colorPrimaryDark</color>
+    <color name="calendarCurrentDayBackgroundColor">@color/colorPrimaryLightest</color>
+    <color name="calendarMultiEventIndicatorColor">@color/colorPrimaryDark</color>
+    <color name="calendarTextColor">@color/normalTextColor</color>
+    <color name="calendarSelectedDayTextColor">@color/normalTextColor</color>
+    <color name="calendarCurrentDayTextColor">@color/normalTextColor</color>
+    <color name="calendarOtherMonthDaysTextColor">@color/lightTextColor</color>
+
+    <color name="bookedStatus">#BB77FF</color>
+    <color name="freeStatus">#4FD2C2</color>
+
+    <color name="red">#FF0000</color>
+    <color name="green">#00ff00</color>
+    <color name="yellow">#EEE8AA</color>
+
+    <color name="text_gray">#FFadadad</color>
+    <color name="light_gray">#FF999999</color>
+    <color name="lightestGray">#DCDCDC</color>
+    <color name="dark_gray">#FF6D6D6D</color>
+    <color name="lighter_blue">#FF2C86C0</color>
+    <color name="gray">#999999</color>
+
+    <color name="view_header_black">#FF303030</color>
+    <color name="view_mess_black">#FF484848</color>
+
+    <color name="livemgray666">#FF666666</color>
+    <color name="red_login">#0080CE</color>
+    <color name="livemgayDevidrDBDB">#FFDBDBDB</color>
+
+    <color name="grey_background_darker">#D8D8D8</color>
+    <color name="grey_john">#2D2D2D</color>
+    <color name="grey_background_vdarker">#AAAAAA</color>
+
 </resources>
