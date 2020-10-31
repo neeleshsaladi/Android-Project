@@ -1,22 +1,18 @@
 package com.example.befit;
 
 
-import java.util.Calendar;
-
 import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
-
 import android.content.Intent;
 import android.os.Bundle;
-
-import android.view.Menu;
 import android.view.View;
-
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.Calendar;
 
 public class Calender extends Activity implements View.OnClickListener {
     private DatePicker datePicker;
@@ -34,7 +30,7 @@ public class Calender extends Activity implements View.OnClickListener {
         dateView = (TextView) findViewById(R.id.textView3);
         calendar = Calendar.getInstance();
         year = calendar.get(Calendar.YEAR);
-        b1 = (Button) findViewById(R.id.button5);
+        b1 = (Button) findViewById(R.id.button8);
         b1.setOnClickListener((View.OnClickListener) this);
 
         month = calendar.get(Calendar.MONTH);
@@ -80,7 +76,7 @@ public class Calender extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        if(v.getId()==R.id.button8)
+        if(v.getId()== R.id.button8)
         {
             Intent intent=new Intent(getApplicationContext(),TimeSlots.class);
             startActivity(intent);
