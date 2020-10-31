@@ -60,6 +60,6 @@ public class BMI extends AppCompatActivity {
         }
 
         bmiLabel = bmi + "\n\n" + bmiLabel;
-        result.setText(bmiLabel);
+        result.setText("Result : "+bmiLabel);
     }
 }
