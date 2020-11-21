@@ -43,3 +43,7 @@ In this application the user need to register using first name, last name, email
 * BMI_page- In this weight and height of a person is calculated.
 
 ![](https://github.com/neeleshsaladi/Android-Project/blob/main/BMI.JPG)
+
+* Calendar_page- In calendar activity, user can view the available dates and hours of the slots and they can select the dates over there.
+
+![](https://github.com/neeleshsaladi/Be-Fit/blob/main/calendar.PNG)
