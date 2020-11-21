@@ -47,3 +47,7 @@ In this application the user need to register using first name, last name, email
 * Calendar_page- In calendar activity, user can view the available dates and hours of the slots and they can select the dates over there.
 
 ![](https://github.com/neeleshsaladi/Be-Fit/blob/main/calendar.PNG)
+
+* Timeslots_page- In this activity User will see different time slots of operating hours of gym, so that user can select specific time for going to the gym.
+
+![](https://github.com/neeleshsaladi/Be-Fit/blob/main/Timeslots.JPG)
