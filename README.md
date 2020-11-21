@@ -10,11 +10,7 @@
 ## App logo
 ![](https://github.com/neeleshsaladi/Android-Project/blob/main/logo.jpg)
 
-<<<<<<< HEAD
-### Test Crdentials
-=======
 ### Test Credentials
->>>>>>> 6ea30daf28decbbf33ab79501edbdd2abe9a0084
 In this application the user need to register using first name, last name, email address and user can create a password.Using Email and password the user can login into the application.
 
 ### Supported devices
@@ -47,5 +43,3 @@ In this application the user need to register using first name, last name, email
 * BMI_page- In this weight and height of a person is calculated.
 
 ![](https://github.com/neeleshsaladi/Android-Project/blob/main/BMI.JPG)
-
-* After the BMI page we load in to the Gym page where we go into different fields of GYM activities
