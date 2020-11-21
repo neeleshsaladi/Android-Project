@@ -47,3 +47,5 @@ In this application the user need to register using first name, last name, email
 * BMI_page- In this weight and height of a person is calculated.
 
 ![](https://github.com/neeleshsaladi/Android-Project/blob/main/BMI.JPG)
+
+* After the BMI page we load in to the Gym page where we go into different fields of GYM activities
