@@ -38,7 +38,7 @@ In this application the user need to register using first name, last name, email
 
 * Dashboard_activity page- : In the Dashboard activity we have added a BMI calculator and the Exercise Routine menu starts from the Gym.
 
-![](https://github.com/neeleshsaladi/Android-Project/blob/main/Dashboard_activity.JPG)
+![](https://github.com/neeleshsaladi/Be-Fit/blob/main/dashboard.PNG)
 
 * BMI_page- In this weight and height of a person is calculated.
 
