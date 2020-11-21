@@ -59,31 +59,34 @@ public class SignUp extends AppCompatActivity {
                 }else if(!password.getText().toString().equals(cpassword.getText().toString())){
                     Toast.makeText(getApplicationContext(), "Password and Confirm Password didn't match", Toast.LENGTH_SHORT).show();
                 }else {
-                    mAuth.createUserWithEmailAndPassword(email.getText().toString(), password.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                        @Override
-                        public void onComplete(@NonNull Task<AuthResult> task) {
-                            if(task.isSuccessful()){
-                                customerID = mAuth.getCurrentUser().getUid();
-                                DocumentReference documentReference = db.collection("users").document(customerID);
-                                Map<String, Object> user = new HashMap<>();
-                                user.put("firstName",firstname.getText().toString());
-                                user.put("lastName",lastname.getText().toString());
-                                user.put("email",email.getText().toString());
-                                user.put("password",password.getText().toString());
+                    try {
+                        if (validationsProfile())
 
-                                documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
-                                    @Override
-                                    public void onSuccess(Void aVoid) {
-                                        Toast.makeText(getApplicationContext(),"success",Toast.LENGTH_SHORT).show();
-                                        Intent i = new Intent(SignUp.this,LoginActivity.class);
-                                        startActivity(i);
-                                    }
-                                }).addOnFailureListener(new OnFailureListener() {
-                                    @Override
-                                    public void onFailure(@NonNull Exception e) {
-                                        Toast.makeText(getApplicationContext(),"failure",Toast.LENGTH_SHORT).show();
-                                    }
-                                });
+                            mAuth.createUserWithEmailAndPassword(email.getText().toString(), password.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                                @Override
+                                public void onComplete(@NonNull Task<AuthResult> task) {
+                                    if (task.isSuccessful()) {
+                                        customerID = mAuth.getCurrentUser().getUid();
+                                        DocumentReference documentReference = db.collection("users").document(customerID);
+                                        Map<String, Object> user = new HashMap<>();
+                                        user.put("firstName", firstname.getText().toString());
+                                        user.put("lastName", lastname.getText().toString());
+                                        user.put("email", email.getText().toString());
+                                        user.put("password", password.getText().toString());
+
+                                        documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                            @Override
+                                            public void onSuccess(Void aVoid) {
+                                                Toast.makeText(getApplicationContext(), "success", Toast.LENGTH_SHORT).show();
+                                                Intent i = new Intent(SignUp.this, LoginActivity.class);
+                                                startActivity(i);
+                                            }
+                                        }).addOnFailureListener(new OnFailureListener() {
+                                            @Override
+                                            public void onFailure(@NonNull Exception e) {
+                                                Toast.makeText(getApplicationContext(), "failure", Toast.LENGTH_SHORT).show();
+                                            }
+                                        });
 
 //                                mAuth.getCurrentUser().sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
 //                                    @Override
@@ -98,13 +101,31 @@ public class SignUp extends AppCompatActivity {
 //                                        }
 //                                    }
 //                                });
-                            }
-                        }
-                    });
-
+                                    }
+                                }
+                            });
+                    }
+                    catch(Exception e){
+                    }
                 }
 
             }
         });
+    }
+
+    private boolean validationsProfile(){
+
+        if (firstname.length() == 0 || lastname.length() == 0 ||
+                email.length() == 0 || (!password.equals(cpassword)))
+        {
+            firstname.setError("First name is required");
+            lastname.setError("Last name is required");
+            email.setError("Email Id is required");
+            password.setError("Both passwords must match");
+            cpassword.setError("Both passwords must match");
+            return false;
+        } else {
+            return true;
+        }
     }
 }

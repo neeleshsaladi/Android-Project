@@ -62,25 +62,30 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 /*Intent intent = new Intent(LoginActivity.this,DashboardActivity.class);
                 startActivity(intent);*/
+                try {
+                    if (validations())
 
-                mAuth.signInWithEmailAndPassword(username.getText().toString(),pswrd.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if(task.isSuccessful()){
-                            Toast.makeText(getApplicationContext(),"verified",Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(), DashboardActivity.class));
+                        mAuth.signInWithEmailAndPassword(username.getText().toString(), pswrd.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                            @Override
+                            public void onComplete(@NonNull Task<AuthResult> task) {
+                                if (task.isSuccessful()) {
+                                    Toast.makeText(getApplicationContext(), "verified", Toast.LENGTH_SHORT).show();
+                                    startActivity(new Intent(getApplicationContext(), DashboardActivity.class));
 //                            if(mAuth.getCurrentUser().isEmailVerified()){
 //
 //                            }
 //                            else{
 //                                Toast.makeText(getApplicationContext(),"failed",Toast.LENGTH_SHORT).show();
 //                            }
-                        }
-                        else{
-                            Toast.makeText(getApplicationContext(),"incorrect",Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });
+                                } else {
+                                    Toast.makeText(getApplicationContext(), "incorrect", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+                }
+                catch(Exception e){
+
+                }
 //                String password = pswrd.getText().toString();
 //                String mailId = username.getText().toString();
 //                if(!password.equals("") && !mailId.equalsIgnoreCase("")){
@@ -104,6 +109,7 @@ public class LoginActivity extends AppCompatActivity {
 //                }
             }
         });
+
         forgot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -111,5 +117,18 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(c);
             }
         });
+    }
+    private boolean validations() {
+
+        if(username.getText().toString().length()==0 && pswrd.getText().toString().length()==0) {
+            username.setError("Email Id is required!");
+            pswrd.setError("Password is required");
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+
     }
 }
