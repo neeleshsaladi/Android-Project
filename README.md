@@ -10,11 +10,14 @@
 ## App logo
 ![](https://github.com/neeleshsaladi/Android-Project/blob/main/logo.jpg)
 
-### About Be Fit
-* Be Fit is an Android application which helps us in pre-booking the time slots for different exercise routines that are offered in the gym, In the current times of covid19 kind of situations people are more worried about their health and safety, So if they have a option to pre book the slot in gym in which there will be limited number of people and in helping to assure their safety.
+### Test Crdentials
+In this application the user need to register using first name, last name, email address and user can create a password.Using Email and password the user can login into the application.
 
 ### Supported devices
 * Android 5.0(lollipop) and above
+
+### About Be Fit
+* Be Fit is an Android application which helps us in pre-booking the time slots for different exercise routines that are offered in the gym, In the current times of covid19 kind of situations people are more worried about their health and safety, So if they have a option to pre book the slot in gym in which there will be limited number of people and in helping to assure their safety.
 
 ### Activities in the Application
 * Home page- In this user can login or signup.
