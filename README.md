@@ -10,7 +10,7 @@
 ## App logo
 ![](https://github.com/neeleshsaladi/Android-Project/blob/main/logo.jpg)
 
-### Test Crdentials
+### Test Credentials
 In this application the user need to register using first name, last name, email address and user can create a password.Using Email and password the user can login into the application.
 
 ### Supported devices
