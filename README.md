@@ -51,3 +51,7 @@ In this application the user need to register using first name, last name, email
 * Timeslots_page- In this activity User will see different time slots of operating hours of gym, so that user can select specific time for going to the gym.
 
 ![](https://github.com/neeleshsaladi/Be-Fit/blob/main/Timeslots.JPG)
+
+* Rate-card_page- In this activity we see the ratecard for the slot that we booked in the timeslot activity, we will have the type of activity selected, price per session and a count for number of sessions booked and a total price.
+
+![](https://github.com/neeleshsaladi/Be-Fit/blob/main/Ratecard.PNG)
