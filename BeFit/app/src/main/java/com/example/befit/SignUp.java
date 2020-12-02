@@ -60,7 +60,7 @@ public class SignUp extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Password and Confirm Password didn't match", Toast.LENGTH_SHORT).show();
                 }else {
                     try {
-                        if (validationsProfile())
+                        
 
                             mAuth.createUserWithEmailAndPassword(email.getText().toString(), password.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                                 @Override
